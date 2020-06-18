@@ -85,8 +85,8 @@ class App extends Component {
 
       <div> 
         
-        <h1 className='tc dark-blue f2 mv5' style={{ fontFamily: 'Amsterdam'}}> Numbers Talk </h1>
-        <h1 className='tc dark-blue f5 mv4' style={{ fontFamily: 'Amsterdam'}}> see what numbers have to say.. </h1>
+        <h1 className='tc dark-blue f1 mv4'> Numbers Talk </h1>
+        <h1 className='tc dark-blue f3 mv4'> fun facts behind numbers.. </h1>
         
         
         <h1 className='tc f3 dark-blue'> Trivia
