@@ -19,7 +19,7 @@ class App extends Component {
     console.log(triviaNumber);
     this.setState({topic: 'trivia'})
     this.setState({number: document.getElementById("triviaInput").value})
-    fetch(`http://numbersapi.com/${triviaNumber}/trivia?json`)
+    fetch(`https://cors-anywhere.herokuapp.com/http://numbersapi.com/${triviaNumber}/trivia?json`)
       .then(resp => resp.json())
       .then(data => { return (
                       this.setState({fact: data.text }),
@@ -36,7 +36,7 @@ class App extends Component {
     console.log(mathNumber);
     this.setState({topic: 'math'})
     this.setState({number: document.getElementById("mathInput").value})
-    fetch(`http://numbersapi.com/${mathNumber}/math?json`)
+    fetch(`https://cors-anywhere.herokuapp.com/http://numbersapi.com/${mathNumber}/math?json`)
       .then(resp => resp.json())
       .then(data => { return (
                       this.setState({fact: data.text }),
@@ -52,7 +52,7 @@ class App extends Component {
     console.log(dateValue);
     this.setState({topic: 'date'})
     this.setState({number: document.getElementById("dateInput").value})
-    fetch(`http://numbersapi.com/${dateValue}/date?json`)
+    fetch(`https://cors-anywhere.herokuapp.com/http://numbersapi.com/${dateValue}/date?json`)
       .then(resp => resp.json())
       .then(data => { return (
                       this.setState({fact: data.text }),
@@ -68,7 +68,7 @@ class App extends Component {
     console.log(yearNumber);
     this.setState({topic: 'year'})
     this.setState({number: document.getElementById("yearInput").value})
-    fetch(`http://numbersapi.com/${yearNumber}/year?json`)
+    fetch(`https://cors-anywhere.herokuapp.com/http://numbersapi.com/${yearNumber}/year?json`)
       .then(resp => resp.json())
       .then(data => { return (
                       this.setState({fact: data.text }),
@@ -85,7 +85,7 @@ class App extends Component {
       <div> 
         
         <h1 className='tc dark-blue f1 mv4'> Numbers Talk </h1>
-        <h1 className='tc dark-blue f3 mv4'> fun facts behind numbers.. </h1>
+        <h1 className='tc dark-blue f3 mv4'> facts behind numbers.. </h1>
         
         
         <h1 className='tc f3 dark-blue'> Trivia
