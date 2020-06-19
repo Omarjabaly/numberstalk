@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cbd0063e566fa94e74289f9a91e761a6",
+    "revision": "87186624f48ff2b3f072439a26f4945a",
     "url": "/numberstalk/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/numberstalk/static/css/2.3c03f26f.chunk.css"
   },
   {
-    "revision": "b1514eacb3cf8451d12e",
-    "url": "/numberstalk/static/css/main.11ce4c10.chunk.css"
+    "revision": "8f38dca8a09a16e2f031",
+    "url": "/numberstalk/static/css/main.5ecd60fb.chunk.css"
   },
   {
     "revision": "920c94ced65b6a332ba4",
@@ -20,15 +20,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/numberstalk/static/js/2.e4d2e11c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b1514eacb3cf8451d12e",
-    "url": "/numberstalk/static/js/main.f21c249d.chunk.js"
+    "revision": "8f38dca8a09a16e2f031",
+    "url": "/numberstalk/static/js/main.e4b18f67.chunk.js"
   },
   {
     "revision": "c04704a310e76161f360",
     "url": "/numberstalk/static/js/runtime-main.a454accd.js"
-  },
-  {
-    "revision": "adf99c7d12434841ba731fe81cb20a05",
-    "url": "/numberstalk/static/media/Unicorn.adf99c7d.ttf"
   }
 ]);

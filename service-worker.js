@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/numberstalk/precache-manifest.f1246e3bdd99f1c42bc6b3573dfea939.js"
+  "/numberstalk/precache-manifest.1c921553360fa1d955b5c8d2a005ce3a.js"
 );
 
 self.addEventListener('message', (event) => {
