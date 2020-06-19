@@ -78,6 +78,11 @@ class App extends Component {
             )
   }
 
+  componentDidMount() {
+        window.scrollTo(0, 0)
+  }
+
+
   render () {
     
     return (
@@ -85,9 +90,14 @@ class App extends Component {
       <div> 
         
         <h1 className='tc dark-blue f1 mv4'> Numbers Talk </h1>
-        <h1 className='tc dark-blue f3 mv4'> facts behind numbers.. </h1>
+        <h1 className='tc dark-blue f3 mv4'> facts behind numbers </h1>
         
-        
+        <NumberFact 
+          topicToDisplay={this.state.topic} 
+          numberToDisplay={this.state.number} 
+          factToDisplay={this.state.fact} 
+        />
+
         <h1 className='tc f3 dark-blue'> Trivia
             <input type='number' className='w5 mh4' placeholder='Enter Number' id='triviaInput' />
             <p className="f5 grow br-pill ba bw2 ph3 pv1 mb1 dib dark-blue pointer" onClick={this.getTrivia}>Go</p>
@@ -108,11 +118,7 @@ class App extends Component {
             <p className="f5 grow br-pill ba bw2 ph3 pv1 mb1 dib dark-blue pointer" onClick={this.getYear}>Go</p>
         </h1>
 
-        <NumberFact 
-          topicToDisplay={this.state.topic} 
-          numberToDisplay={this.state.number} 
-          factToDisplay={this.state.fact} 
-        />
+
 
       </div>
 
