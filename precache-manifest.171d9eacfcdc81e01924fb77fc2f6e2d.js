@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "76878cf8b5f0b149732aa746693615de",
+    "revision": "3537af78a833a45a07310d99b9f6fb07",
     "url": "/numberstalk/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/numberstalk/static/css/2.3c03f26f.chunk.css"
   },
   {
-    "revision": "8285c2e40dc2f4b28942",
+    "revision": "70f7d4885dbe4e79007c",
     "url": "/numberstalk/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/numberstalk/static/js/2.e4d2e11c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8285c2e40dc2f4b28942",
-    "url": "/numberstalk/static/js/main.c649ab0c.chunk.js"
+    "revision": "70f7d4885dbe4e79007c",
+    "url": "/numberstalk/static/js/main.427a971f.chunk.js"
   },
   {
     "revision": "c04704a310e76161f360",
